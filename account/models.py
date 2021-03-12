@@ -14,8 +14,8 @@ class User(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
-    is_ngo_admin = models.BooleanField(default=False)
-    is_donor = models.BooleanField(default=False)
+    #is_ngo_admin = models.BooleanField(default=False)
+    #is_donor = models.BooleanField(default=False)
     def __str__(self):
         return self.first_name + " "+ self.last_name
 
