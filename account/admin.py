@@ -16,7 +16,7 @@ class BaseUserAdmin(UserAdmin):
 
 
 
-admin.site.site_header = 'T017'
+admin.site.site_header = 'Codeshastra 7.0'
 admin.site.site_title = 'Noobs 2.0'
 admin.site.index_title = 'Site admin panel'
 admin.site.unregister(Group)
